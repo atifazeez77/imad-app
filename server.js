@@ -30,7 +30,7 @@ app.get('/ui/modi.png', function (req, res) {
 });
 
 
-var port = 80; //Use 8080 for local development because ypu might already have apache running on 80
-app.listen(port, function () {
+var port = 80; //Use 80 for local development because ypu might already have apache running on 80
+app.listen(80, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
