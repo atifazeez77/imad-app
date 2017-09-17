@@ -9,7 +9,7 @@ body {
 }
 
 .text-big {
-    font-size: 200%;
+    font-size: 300%;
 }
 
 .bold {
@@ -17,5 +17,5 @@ body {
 }
 
 .img-medium {
-    height: 100px;
+    height: 300px;
 }
