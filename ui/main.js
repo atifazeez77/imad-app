@@ -38,5 +38,5 @@ var button = document.getElementById('counter');
        list += '<li>' + names[i] + '</li>';
    }
    var ul = document.getElementById('name list');
-   ul.innerHTML = list;
+   ul.innerHTML= list;
  };
