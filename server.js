@@ -47,6 +47,7 @@ app.get('/submit-name', function(req, res) { //URL: /submit-name?name=xxxxx
    //JSON: Javascript Object Notation
     res.send(JSON.stringify(names));
 });
+
 var port = 80; //Use 80 for local development because ypu might already have apache running on 80
 app.listen(80, function () {
   console.log(`IMAD course app listening on port ${port}!`);
