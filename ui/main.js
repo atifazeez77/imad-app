@@ -36,7 +36,7 @@ var button = document.getElementById('counter');
              if (request.status === 200) {
                //Capture a list of names and render it as a list
                var names = request.responseText;
-               names = JSON.getElementById('namelist');
+               names = JSON.getElementById('name list');
                ul.innerHTML = list;
              }
          }
