@@ -50,6 +50,6 @@ var button = document.getElementById('counter');
     // Make the rquest
     var nameInput = document.getElementById('name');
     var name = nameInput.value;
-    request.open('GET' , 'http://atifazeez77.imad.hasura-app.io/counter', true);
+   request.open('GET' , 'http://atifazeez77.imad.hasura-app.io/submit-name', true);
     request.send(null);
  };
