@@ -5,9 +5,45 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+
+var articles = {
+    'article-one'; {
+        title:  'Article one 1   Atif Azeez',
+        heading: 'Article One',
+        date: 'Sep 4, 2017',
+        content:
+        <p>
+         This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article
+        </p>
+            <p>
+                This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article
+            </p>
+            <p>
+                This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article.
+            </p>
+},
+    'article-two'; {
+        title:  'Article two 2   Atif Azeez',
+        heading: 'Article Two',
+        date: 'Sep 4, 2017',
+        content:
+        <p>
+         This is the content for my second article
+         </p>
+},
+         'article-three'; {
+        title:  'Article three 3   Atif Azeez',
+        heading: 'Article Three',
+        date: 'Sep 4, 2017',
+        content:
+        <p>
+         This is the content for my third article
+         </p>
+},
+function createTemplate (data) {}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-});
+};
 
 var counter = 0;
 app.get('/counter' , function (req, res) {
